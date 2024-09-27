@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  margin: 0; 
+  background-color: #121212; 
+  color: #ffffff; 
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  background-color: #1e1e1e; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(65, 212, 225, 0.5); 
+  padding: 20px
+}
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border: none;
+  border-radius: 5px; 
+  background-color: #2e2e2e;
+  color: #ffffff; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px; 
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #2e2e2e; 
+  border-radius: 5px; 
+}
+
+li.completed span {
+  text-decoration: line-through; 
+  color: #888888; 
+}
+.remove-button {
+  background-color: #d30000; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #850000; 
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 50%; 
+  outline: none;
+  cursor: pointer;
+  background-color: transparent; 
+  transition: background-color 0.3s ease; 
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff; 
+  border-color: #007bff;
+}
+
+/* Add this to your existing CSS in TodoList.css */
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px; /* Space between text input and date input */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #2e2e2e; /* Darker input background */
+  color: #ffffff; /* White text in input */
+}
