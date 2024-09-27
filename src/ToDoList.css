@@ -101,14 +101,13 @@ input[type="checkbox"]:checked {
   border-color: #007bff;
 }
 
-/* Add this to your existing CSS in TodoList.css */
 
 input[type="date"] {
   padding: 10px;
   font-size: 16px;
-  margin-left: 10px; /* Space between text input and date input */
+  margin-left: 10px; 
   border: none;
-  border-radius: 5px; /* Rounded corners */
-  background-color: #2e2e2e; /* Darker input background */
-  color: #ffffff; /* White text in input */
+  border-radius: 5px; 
+  background-color: #2e2e2e; 
+  color: #ffffff; 
 }
