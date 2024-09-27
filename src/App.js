@@ -1,7 +1,6 @@
-// src/App.js
 import React from 'react';
 import TodoList from './ToDoList';
-import './App.css'; // Optional: General app styles
+import './App.css'; 
 
 function App() {
   return (
